@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OriginHub</string>
+    <string name="originhub">OriginHub</string>
+    <string name="user_avatar">User Avatar</string>
+    <string name="username_search_hint">Please enter user name...</string>
+    <string name="repo_search_text">Search For Users Repositories</string>
+</resources>

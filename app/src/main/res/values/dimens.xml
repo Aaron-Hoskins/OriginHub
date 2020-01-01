@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="user_list_img_size">100dp</dimen>
+    <dimen name="item_margin">8dp</dimen>
+    <dimen name="user_item_img_margin">8dp</dimen>
+    <dimen name="repo_user_img_size">150dp</dimen>
+</resources>
