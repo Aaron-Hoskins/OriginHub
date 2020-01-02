@@ -10,7 +10,6 @@ import com.bumptech.glide.Glide
 import com.tobysoft.originhub.R
 import com.tobysoft.originhub.databinding.ActivityRepositoryBinding
 import com.tobysoft.originhub.datasource.local.USER_INFO_ID
-import com.tobysoft.originhub.model.github.UserInformationResult
 import com.tobysoft.originhub.model.github.UserRepositoryResults
 import com.tobysoft.originhub.view.adapters.RepositoryRVAdapter
 import com.tobysoft.originhub.viewmodel.RepositoryViewModel

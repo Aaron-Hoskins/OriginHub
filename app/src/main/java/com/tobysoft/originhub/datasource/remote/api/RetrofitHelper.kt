@@ -18,6 +18,7 @@ object RetrofitHelper {
 
         return OkHttpClient.Builder()
             .addInterceptor(loggingInterceptor)
+            .cache(apiCache)
             .build()
     }
 

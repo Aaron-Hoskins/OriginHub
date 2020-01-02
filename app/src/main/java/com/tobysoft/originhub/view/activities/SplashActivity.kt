@@ -19,7 +19,7 @@ class SplashActivity : AppCompatActivity() {
         viewBinding = DataBindingUtil.setContentView(this, R.layout.activity_splash)
         viewModel = ViewModelProviders.of(this).get(SplashViewModel::class.java)
         viewBinding.viewmodel = viewModel
-        viewModel.startMainActivity.observe(this, Observer { isReady -> continueToMainActivity()})
+        viewModel.startMainActivity.observe(this, Observer { continueToMainActivity()})
 
     }
 

@@ -99,7 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/repo_search_text"
-            android:onTextChanged="@{viewmodel.onRepositoryFilteringTextChanged}"
+            android:onTextChanged="@{viewmodel::onRepositoryFilteringTextChanged}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvUserBio"

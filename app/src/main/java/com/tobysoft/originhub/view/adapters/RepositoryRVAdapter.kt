@@ -28,8 +28,8 @@ class RepositoryRVAdapter(var repositoryList : List<UserRepositoryResults>)
     class ViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {
         fun bindRepository(repositoryResults: UserRepositoryResults) {
             itemView.tvRepositoryName.text = repositoryResults.name
-            itemView.tvRepositoryForks.text = "${repositoryResults.forks} Forks"
-            itemView.tvRepositoryStars.text = "${repositoryResults.stargazers_count} Stars"
+            itemView.tvRepositoryForks.text = "${repositoryResults.forksCount} Forks"
+            itemView.tvRepositoryStars.text = "${repositoryResults.stargazersCount} Stars"
         }
     }
 }

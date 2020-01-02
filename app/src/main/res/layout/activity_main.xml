@@ -20,7 +20,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:hint="@string/username_search_hint"
-            android:onTextChanged="@{viewmodel.onUserNameTextChanged}"
+            android:onTextChanged="@{viewmodel::onUserNameTextChanged}"
             app:layout_constraintBottom_toTopOf="@id/rvUserSearchResultList"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
