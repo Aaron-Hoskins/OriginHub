@@ -1,3 +1,3 @@
 <html>
-<a href="https://github.com/aaron-hoskins/originhub">Deep Link</a>
+<a href="https://github.com/aaron-hoskins/originhub/splash">Deep Link</a>
 </html>
